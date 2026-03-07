@@ -165,8 +165,6 @@ export default function POSUsers() {
           columns={posColumns}
           data={posData}
           renderRowActions={(row) => (
-            (daherUser?.username == "Alfa") ?
-            (
             <div className="flex gap-2">
               <PopupForm
                 title="اضافة دفعة لنقطة البيع"
@@ -268,8 +266,7 @@ export default function POSUsers() {
                   </form>
                 </div>
               </PopupForm>
-            </div>
-            ) : null  
+            </div> 
           )}
         />
 

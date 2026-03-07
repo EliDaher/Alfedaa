@@ -21,7 +21,8 @@ export const googleClient = axios.create({
 
 export const invoiceClient = axios.create({
   baseURL:
-    import.meta.env.VITE_API_BASE_URL || "https://paynet-main-nasar.onrender.com",
+    import.meta.env.VITE_API_BASE_URL ||
+    "https://paynet-main-zakrya.onrender.com",
   timeout: 30000,
   headers: {
     "Content-Type": "application/json",
@@ -63,7 +64,7 @@ invoiceClient.interceptors.response.use(
     if (error.response?.status === 401) {
       // Handle unauthorized access
       localStorage.removeItem("token");
-      window.location.href = "/Alfa/#/login";
+      window.location.href = "/Alfedaa/#/login";
     }
 
     return Promise.reject(error);

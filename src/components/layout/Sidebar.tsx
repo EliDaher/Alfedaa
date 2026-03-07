@@ -63,7 +63,7 @@ export function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
           <div className="flex items-center space-x-2">
             <DaherLogo className="fill-transparent" />
             <span className="font-bold text-lg text-sidebar-foreground tracking-wide">
-              Alfa
+              Alfedaa
             </span>
           </div>
         )}

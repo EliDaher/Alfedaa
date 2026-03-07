@@ -40,7 +40,7 @@ export function Header({ onToggleSidebar }: HeaderProps) {
         <div className="mr-4 md:flex">
           <div className="mr-6 flex items-center space-x-2">
             <span className="font-bold md:inline-block">
-              Alfa / {daherUser?.username}
+              Alfedaa / {daherUser?.username}
             </span>
           </div>
         </div>
