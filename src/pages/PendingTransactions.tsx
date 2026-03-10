@@ -18,7 +18,7 @@ export default function PendingTransactions() {
   const [socket, setSocket] = useState<Socket | null>(null);
 
   useEffect(() => {
-    const newSocket = io("https://paynet-main-nasar.onrender.com");
+    const newSocket = io("https://paynet-main-zakrya.onrender.com");
     setSocket(newSocket);
 
     newSocket.on("pendingPaymentsUpdate", (updatedPayments) => {
